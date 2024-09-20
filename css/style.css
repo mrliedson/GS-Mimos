@@ -28,13 +28,21 @@ header > h1 {
     text-align: center;
     color: pink;
 }
-span#menu {
-    background-color: rgb(78, 78, 78);
-    color
+span.menu {
+    background-color: #894a9e;
+    color: black;
     display: block;
+    text-align: center;
+    padding: 10px;
+}
+span.menu:hover{
+    background-color: #a7599c;
+    color: white;
+    cursor: pointer;
+
 }
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
