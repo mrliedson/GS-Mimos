@@ -1,13 +1,75 @@
-.pai {
-    background-color: rgb(163, 68, 84);
-    text-align: center;
-    margin-top: 50px;
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
 }
-.div1 {
-    background-color: pink;
-    text-align: justify;
+
+.cores{
+    color: #BE67DB;
+    color: #DB7490;
+    color: #DB76CE;
+    color: #8549DB;
+    color: #DB7267;
+    color: #DB86D0;
+}
+
+body, html{
+    background-color: #cccccc;
+}
+header {
+    background-color: #8549DB;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: pink;
+}
+span#menu {
+    background-color: rgb(78, 78, 78);
+    color
+    display: block;
+}
+menu{
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #DB76CE;
+    color: white;
+    border-top: 2px solid pink;
+}
+
+menu > ul > li > a:hover  {
+    background-color: #a7599c;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 
 }
-h1, h2 {
-    text-align: center;
+
+article > h2 {
+    padding-bottom: 20px;
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
